@@ -1,0 +1,103 @@
+
+#calculator {
+  margin: 30px auto 0;
+  padding: 10px 0 10px;
+  width: 400px;
+  background: #fcbe51;
+  border-radius: 5%;
+  margin-bottom: 50px;
+}
+.eye{width: 100%;}
+
+#calculator #display {
+  margin: 0 auto 18px;
+  width: 345px;
+  height: 75px;
+  background: #9db3b3;
+  border:solid 2px #86a0a0 ;
+  position: relative;
+}
+#calculator #display p {
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  right: 15px;
+}
+#calculator #display p.text1 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+#calculator #display p.text2 {
+  font-size: 24px;
+  font-weight: bold;
+  top: 40px;
+}
+#calculator #display p.text3 {
+    font-size: 16px;
+    margin-top: 75px;
+    margin-bottom: 3px;
+}
+#calculator #display p.text4 {
+    font-size: 25.5px;
+    font-weight: bold;
+    top: 100px;
+}
+
+span{display: none;}
+
+#calculator ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: center;
+}
+
+#calculator ul li {
+  margin: 0 0 15px;
+  background: #ffe9c2;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  list-style: none;
+  line-height: 60px;
+  cursor: pointer;
+}
+#calculator ul li:hover {
+  background: #fcf4e6;
+}
+#calculator ul li:active {
+  border: #8ADDFD 2px solid;
+  box-sizing: border-box;
+}
+#calculator ul li.colspan {
+  width: 134px;
+}
+
+.jan {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.jan > p{
+    display: none;
+    text-align: center;
+    margin: 0 12px 12px;
+    color: white;
+    background: #e86a61;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    list-style: none;
+    line-height: 60px;
+    cursor: pointer;
+}
+.jan > p:hover {
+    background: #ed4c40;
+    border:solid 2px #ed4c40;
+}

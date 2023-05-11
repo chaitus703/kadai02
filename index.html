@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電卓妖怪「じゃんけるべろす」</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="load-fade">
+    <main class="selector">
+        <div id="calculator">
+            <div>
+                <p><img id="image" src="img/d1.png" alt="目の画像" class="eye"></p>
+            </div> 
+            <div id="display">
+            <p class="text1"></p>
+            <p class="text2"></p>
+            <p class="text3"></p>
+            <p class="text4"></p>
+            </div>
+            <div class="jan">
+                <p id="gu">グー</p>
+                <p id="cho">チョキ</p>
+                <p id="pa">パー</p>
+            </div>
+            <ul>
+                <li class="num">7</li>
+                <li class="num">8</li>
+                <li class="num">9</li>
+                <li id="ac" class="colspan">AC</li>
+                <li class="num">4</li>
+                <li class="num">5</li>
+                <li class="num">6</li>
+                <li  value="4" onclick="edit(this)">÷</li>
+                <li  value="3" onclick="edit(this)">×</li>
+                <li class="num">1</li>
+                <li class="num">2</li>
+                <li class="num">3</li>
+                <li  value="2" onclick="edit(this)">－</li>
+                <li  value="1" onclick="edit(this)">＋</li>
+                <li class="colspan num">0</li>
+                <li id="dec">.</li>
+                <li id="eq" class="colspan">＝</li>
+            </ul>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
